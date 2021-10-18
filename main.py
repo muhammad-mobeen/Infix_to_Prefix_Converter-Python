@@ -61,5 +61,5 @@ def infix_to_prefix(exp):
     return operand.top()
 
 
-s = "c*(a+b)"
+s = "c*a+b"
 print(infix_to_prefix(s))
