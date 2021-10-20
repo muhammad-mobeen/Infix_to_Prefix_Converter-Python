@@ -96,4 +96,6 @@ def infix_to_prefix(exp):                                   # Function for infix
     return operand.top()
 
 # Calling function and pasrsing our expresion for conversion:-
-print(infix_to_prefix("c*a+b"))
+expression = "c*a+b"
+print("Prefix for expression ", expression, end="")
+print(" is: ", infix_to_prefix(expression))
